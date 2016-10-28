@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="4">
+<package pkgid="bbad6f8b76467d0a5c40fe0f5a1d92500baef49dedff2944e317936b110524eb" name="kubeadm" arch="x86_64">
+  <version epoch="0" ver="1.5.0" rel="0.alpha.0.1534.gcf7301f"></version>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.3.4-1" date="1469016000">- Initial packaging.</changelog>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.4.0-0" date="1474372800">- Add kubectl and kubeadm sub-packages.&#xA;- Rename to kubernetes-cni.&#xA;- Update versions of CNI.</changelog>
+</package><package pkgid="fac5b4cd036d76764306bd1df7258394b200be4c11f4e3fdd100bfb25a403ed4" name="kubectl" arch="x86_64">
+  <version epoch="0" ver="1.4.0" rel="0"></version>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.3.4-1" date="1469016000">- Initial packaging.</changelog>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.4.0-0" date="1474372800">- Add kubectl and kubeadm sub-packages.&#xA;- Rename to kubernetes-cni.&#xA;- Update versions of CNI.</changelog>
+</package><package pkgid="c37966352c9d394bf2cc1f755938dfb679aa45ac866d3eb1775d9c9b87d5e177" name="kubelet" arch="x86_64">
+  <version epoch="0" ver="1.4.0" rel="0"></version>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.3.4-1" date="1469016000">- Initial packaging.</changelog>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.4.0-0" date="1474372800">- Add kubectl and kubeadm sub-packages.&#xA;- Rename to kubernetes-cni.&#xA;- Update versions of CNI.</changelog>
+</package><package pkgid="5ce829590fb4d5c860b80e73d4483b8545496a13f68ff3033ba76fa72632a3b6" name="kubernetes-cni" arch="x86_64">
+  <version epoch="0" ver="0.3.0.1" rel="0.07a8a2"></version>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.3.4-1" date="1469016000">- Initial packaging.</changelog>
+  <changelog author="dgoodwin &lt;dgoodwin@redhat.com&gt; - 1.4.0-0" date="1474372800">- Add kubectl and kubeadm sub-packages.&#xA;- Rename to kubernetes-cni.&#xA;- Update versions of CNI.</changelog>
+</package></otherdata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filelists xmlns="http://linux.duke.edu/metadata/filelists" packages="4">
+<package pkgid="bbad6f8b76467d0a5c40fe0f5a1d92500baef49dedff2944e317936b110524eb" name="kubeadm" arch="x86_64">
+  <version epoch="0" ver="1.5.0" rel="0.alpha.0.1534.gcf7301f"></version>
+  <file>/etc/systemd/system/kubelet.service.d/10-kubeadm.conf</file>
+  <file>/usr/bin/kubeadm</file>
+</package><package pkgid="fac5b4cd036d76764306bd1df7258394b200be4c11f4e3fdd100bfb25a403ed4" name="kubectl" arch="x86_64">
+  <version epoch="0" ver="1.4.0" rel="0"></version>
+  <file>/usr/bin/kubectl</file>
+</package><package pkgid="c37966352c9d394bf2cc1f755938dfb679aa45ac866d3eb1775d9c9b87d5e177" name="kubelet" arch="x86_64">
+  <version epoch="0" ver="1.4.0" rel="0"></version>
+  <file>/etc/systemd/system/kubelet.service</file>
+  <file>/usr/bin/kubelet</file>
+  <file type="dir">/etc/kubernetes/manifests</file>
+</package><package pkgid="5ce829590fb4d5c860b80e73d4483b8545496a13f68ff3033ba76fa72632a3b6" name="kubernetes-cni" arch="x86_64">
+  <version epoch="0" ver="0.3.0.1" rel="0.07a8a2"></version>
+  <file>/opt/cni/bin/bridge</file>
+  <file>/opt/cni/bin/cnitool</file>
+  <file>/opt/cni/bin/dhcp</file>
+  <file>/opt/cni/bin/flannel</file>
+  <file>/opt/cni/bin/host-local</file>
+  <file>/opt/cni/bin/ipvlan</file>
+  <file>/opt/cni/bin/loopback</file>
+  <file>/opt/cni/bin/macvlan</file>
+  <file>/opt/cni/bin/noop</file>
+  <file>/opt/cni/bin/ptp</file>
+  <file>/opt/cni/bin/tuning</file>
+  <file type="dir">/opt/cni</file>
+  <file type="dir">/opt/cni/bin</file>
+</package></filelists>
